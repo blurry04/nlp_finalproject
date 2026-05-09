@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# OS / Office temp files
+Thumbs.db
+.DS_Store
+~$*
+
+# Large raw data files
+*.csv
+*.jsonl
+
+# Model artifacts and generated outputs
+local_llm/
+outputs_15k_gemma_24h_prior_dx/
+outputs_full_deterministic_24h_prior_dx/
+tier_runs_15k_gemma_24h_prior_dx/
+tier_runs_full_deterministic_24h_prior_dx_tier2a/
+training_logs/
+
+# Generated demo assets
+demo_video_assets/
+demo_video_long_assets/
+*_extracted.png
+*_edited.png
+*.mp4
+*.zip
+*.tar.gz
+
+# Optional local docs/build artifacts
+*.log
